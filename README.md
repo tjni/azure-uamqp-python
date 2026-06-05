@@ -6,16 +6,21 @@
 
 [![image](https://dev.azure.com/azure-sdk/public/_apis/build/status/python/azure-uamqp-python%20-%20client?branchName=main)](https://dev.azure.com/azure-sdk/public/_build?definitionId=89)
 
+> [!IMPORTANT]
+> ## THIS PROJECT IS OUT OF SUPPORT AND ARCHIVED
+>
+> **`uamqp` is no longer supported or maintained.** This repository has been
+> archived and will not receive any further updates, bug fixes, or security
+> patches.
+>
+> The Azure SDK for Python client libraries (including **Azure Event Hubs**
+> and **Azure Service Bus**) **no longer depend on `uamqp`**. They have
+> migrated to a pure-Python AMQP stack that is actively maintained as part
+> of the Azure SDK for Python.
+>
+> Issues and pull requests will no longer be accepted on this repository.
+
 An AMQP 1.0 client library for Python.
-
-# Disclaimer
-
-This repo is no longer in active maintenance and we plan on deprecating
-it sometime in the first quarter of 2025. The EventHubs & Service Bus
-client libraries are now using the python based AMQP library which is
-under active development. If there is interest in using the new python
-library as standalone, please share your interest in this
-[issue](https://github.com/Azure/azure-uamqp-python/issues/374).
 
 uAMQP for Python requires Python 3.6+ starting from v1.5, and Python 2.7
 is no longer supported. If Python 2.7 is required, please install uAMQP
